@@ -1,4 +1,4 @@
-name: test #32
+name: test
 on: push
 jobs:
   test:
