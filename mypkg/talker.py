@@ -1,6 +1,5 @@
 import rclpy
 from rclpy.node import Node
-<<<<<<< HEAD
 from std_msgs.msg import Int16
 
 rclpy.init()
@@ -19,23 +18,4 @@ def cb():
 
 def main():
     node.create_timer(0.5, cb)
-=======
-from person_msgs.srv import Query
-
-rclpy.init()
-node = Node("talker")
-
-
-def cb(request, response):
-    if request.name == "藤田柚樹":
-        response.age = 20
-    else:
-        response.age = 255
-
-    return response
-
-
-def main():
-    srv = node.create_service(Query, "query", cb)
->>>>>>> 50ab9235fd936ad1dbe153e9e40368ba971e8b39
     rclpy.spin(node)
