@@ -16,7 +16,7 @@ setup(
         (os.path.join('share', package_name),glob('launch/*.launch.py'))
     ],
     install_requires=['setuptools'],
-    zip_safe=True,
+    zip_safe=True, #3
     maintainer='Yuzuki Fujita',
     maintainer_email='fujifujiyuzunoki@icloud.com',
     description='ロボットシステム学Ros2',
