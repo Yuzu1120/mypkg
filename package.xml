@@ -7,10 +7,7 @@
   <maintainer email="fujifujiyuzunoki@icloud.com">Yuzuki Fujita</maintainer>
   <license>BSD-3-Clause</license>
   <exec_depend>rclpy</exec_depend>
-<<<<<<< HEAD
   <exec_depend>std_msgs</exec_depend>
-=======
->>>>>>> 50ab9235fd936ad1dbe153e9e40368ba971e8b39
   <exec_depend>launch_ros</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
